@@ -1,0 +1,47 @@
+.whiskey{
+  height:200px;
+  background-color:red;
+}
+
+@media(min-width:786px){
+  .whiskey{
+    background-color: greenyellow;
+  }
+}
+
+@media(min-width:1024px){
+  .whiskey{
+    background-color: darkorchid;
+  }
+}
+
+@media(min-width:1200px){
+  .whiskey{
+    background-color: firebrick;
+  }
+}
+/* Header classes */
+.primary-header h1, h3{
+  background:lightgray;
+  padding:10-20px;
+  margin:0px;
+}
+.nav li, p{
+  display:inline-block;
+  margin:0 10px;
+  padding:10 20px;
+}
+.container {
+  display:inline;
+}
+/* logos */
+.logo {
+  display:inline;
+  align-items:center;
+}
+.article-text {
+    overflow: hidden;
+}
+.c1 {
+  margin:0-20px;
+}

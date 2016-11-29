@@ -1,0 +1,14 @@
+.h2 {
+  background-color:peachpuff;
+  float: left;
+  vertical-align:0px;  
+}
+.nav li, p {
+  display:inline-block;
+  padding:10px;
+  float: right;
+}
+.header {
+  background: green;
+  padding:100px
+} 
