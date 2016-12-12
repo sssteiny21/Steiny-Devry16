@@ -1,0 +1,39 @@
+<<!DOCTYPE html>
+<html ng-app="btnmessage" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Intro</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.js" ></script>
+  <script src="angular.js"></script>
+        
+</head>
+<body ng-controller="clickme">
+  <h1>
+    Click my Button, 
+  </h1>
+  <div>
+    <button ng-click="btnclick()" type="button">Hello!</button>
+    {{greeting}}
+  </div>
+  <div>
+    <button ng-click="btnlist()"  type="button">Buy Me!</button>
+    {{greeting}}
+    <ul>
+      <h5>
+        Check out my list of items for sale!
+      </h5>
+      <li> {{items}}</li>
+    </ul>
+   
+  </div>
+  
+  
+  </body>
+</html>
+
+
+
+
+
+ 

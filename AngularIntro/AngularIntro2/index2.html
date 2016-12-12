@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="GoOrNo" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Intro Part 2</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.js" ></script>
+  <script src="angular2.js"></script>
+   <link rel="stylesheet" href="main.css">
+</head>
+  <body ng-controller="click as btnprompt">
+    <h1>
+      Part two of Angular Intro!
+    </h1>
+    <h2>
+      We are building a web application!
+    </h2>
+  <div class="container">
+    <div class="row">
+      <div ng-repeat="click in btnprompt.links" > 
+        <h2>{{click.name}} </h2>
+            <a href="{{click.link}}">click me</a>
+        <p>
+          {{click.content}}
+        </p>
+<!--     <a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a> -->
+<!--     <a href="www.hockeygiant.com">Buy some hockey stuff</a> -->
+    
+      </div>
+  </div>
+ </div>
+  
+</body>
+</html>
