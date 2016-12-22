@@ -49,11 +49,14 @@ var visitors = new Visitor (
  console.log('After Save!');*/
 
 /* This finds the list of documents in the Animal collection you have created
+
 Animal.find({}, (err, animals)=>{
   //console.log('Err :', animals);
    console.log('animals : ', animals);
    return Animal.name
 });*/
+
+/*This finds and updates a document in your collection *It won't update inthe first save, you must look for it on the terminal side to see the change
 
 Animal.findOneAndUpdate(
   {name : "elephant"},
@@ -61,7 +64,8 @@ Animal.findOneAndUpdate(
   {new : true},
   (err, animal)=>{
    console.log('animals: ', animals);
-  });
+  });*/
+
           
 
 
