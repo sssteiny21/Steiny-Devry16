@@ -66,7 +66,10 @@ Animal.findOneAndUpdate(
    console.log('animals: ', animals);
   });*/
 
-          
+Visitor.update({  name : "Rodrigo"}, {favoriteAnimals : ["whale", "larry"]}, {new :true}, (err, visitors)=>{
+ console.log('ERR : ', visitors);  //the items in the present show how they will display in mongoose
+
+})
 
 
 
