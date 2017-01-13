@@ -153,14 +153,25 @@ console.log(tiny('-5'));
             
 */
 
-
+/*//incomplete
 var getSeconds = function(str){
 	str = (MM + SS)
-	return (getSeconds);
+	var minutestring = MM
+	var secondstring = SS
+	return minutestring * 60 + secondstring;
 	
-}
+};
 
 console.log(str('1 : 30'));
+*/
+
+var alphabetSoup = function(str){
+	return alphabetSoup.sort();
+}
+console.log((alphabetSoup), 'hello')
+
+
+	
 
 
 
