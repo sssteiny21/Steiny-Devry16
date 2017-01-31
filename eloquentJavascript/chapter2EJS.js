@@ -1,15 +1,15 @@
- /* //- Write a function called 'tripleFive' which loops three times using a for loop. Each iteration of the loop, output 'Five!' using console.log.
-   // - tripleFive() 
+/* //- Write a function called 'tripleFive' which loops three times using a for loop. Each iteration of the loop, output 'Five!' using console.log.
+   // - tripleFive()
    // - Five! Five! Five!
 
 var tripleFive = function() {
-  for (i=0; i < 3; i++) {
-       console.log('Five!');
-  }
-}
+  for (i=0; i < 3; i++);
+   console.log('Five!');
+ }
 */
 
-    
+
+
 /*
 //Looping the triangle exercise from Eloquent Javascript
 for (var number = '#'; number.length < 7; number += '#'){
@@ -23,17 +23,25 @@ for (var number = '#'; number.length < 7; number += '#'){
 
 
 
-/*
+
 //FizzBuzz exercise from Eloquent Javascript
 for (var num = 1; num <=100; num++){
-    var output = (" ");
-    if (num % 3 == 0);
+    var output = "";
+    if (num % 3 == 0)
     output += "Fizz";
-    if (num % 5 == 0);
+    if (num % 5 == 0)
     output += "Buzz";
-  console.log(output || n );
+  console.log(output || num );
 }
-*/
+
+/*for (var n = 1; n <= 100; n++) {
+  var output = "";
+  if (n % 3 == 0)
+    output += "Fizz";
+  if (n % 5 == 0)
+    output += "Buzz";
+  console.log(output || n);
+}*/
 
 /*
 //Using the days string to work the .length function
@@ -58,7 +66,7 @@ var floatingrock = "island"
 function lastletter(greeting, floatingrock) {
   [greeting.length-1];
   console.log(lastletter);
-   
+
 }
 
 
@@ -106,9 +114,9 @@ console.log(toArray(8,9,10));
 var startswithA = function(str){
   if (str.charAt(0) == 'a')
      return true;
-      else 
+      else
      return false;
-   
+
 }
 console.log(startswithA('aardvark'));
 console.log(startswithA('Barry'));
@@ -118,22 +126,22 @@ console.log(startswithA('Barry'));
 //This function adds '!!!' to any string entered
 var excite = function(str){
   return (str + '!!!');
-  
+
 }
 
 console.log(excite('yes'));
 console.log(excite('go'));
 */
 
-/* 
+/*
 //Function using the MDN string.prototype to determine if a certain subword exists in a user entry
 var sun = function(str){
   if (str.indexOf('sun') >= 0)
     return true;
   else
     return false;
-  
-      
+
+
 }
 console.log(sun('sundried'));
 console.log(sun('blatency'));
@@ -141,16 +149,16 @@ console.log(sun('blatency'));
 
 /*
 //This function uses the '&&' operator to return numbers that are greater than 0 'AND/&&' less than 1
-var tiny = function(num) {  
+var tiny = function(num) {
   return num > 0 && num < 1;
-   
+
 
 }
 
 console.log(tiny('0.3'));
 console.log(tiny('14'));
 console.log(tiny('-5'));
-            
+
 */
 
 /*//incomplete
@@ -159,58 +167,15 @@ var getSeconds = function(str){
 	var minutestring = MM
 	var secondstring = SS
 	return minutestring * 60 + secondstring;
-	
+
 };
 
 console.log(str('1 : 30'));
 */
 
+/*
 var alphabetSoup = function(str){
 	return alphabetSoup.sort();
 }
 console.log((alphabetSoup), 'hello')
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
